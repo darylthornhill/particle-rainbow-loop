@@ -1,0 +1,27 @@
+{
+    "name": "particle-rainbow-loop",
+    "version": "0.0.6",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/darylthornhill/particle-rainbow-loop/"
+    },
+    "description": "nft",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "rm -rf ./build && cp -a ./static ./build  && babel src --out-dir ./build"
+    },
+    "keywords": [],
+    "author": "Daryl Thornhill @darylthornhill",
+    "dependencies": {},
+    "devDependencies": {
+        "babel": "^6.23.0",
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.4",
+        "babel-minify": "^0.5.1",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-minify": "^0.5.1",
+        "babel-preset-react": "^6.24.1"
+    }
+}
